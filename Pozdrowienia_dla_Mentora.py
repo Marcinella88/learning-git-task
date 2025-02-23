@@ -1,0 +1,1 @@
+print("Pozdrowienia dla Najlepszego Mentora Macieja Biesek")
