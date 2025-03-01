@@ -8,15 +8,15 @@ def czy_polindrom(word):
 
     sorted_word = sorted(Indeks_and_letter, key=indeks_1,reverse=True)
 
-    now_word=""
+    new_word=""
     for _, letter in sorted_word:
-        now_word += letter
+        new_word += letter
 
-    polidrom =  now_word == word
+    polidrom =  new_word.lower() == word.lower()
 
     if polidrom:
-        print(f'Słowo: "{word}" to palindrom!')
+        print(f"Słowo: {word} to palindrom!")
     else:
-        print(f'Słowo: "{word}" nie jest palindromem.')
+        print(f"Słowo: {word} nie jest palindromem.")
 
-czy_polindrom('anna') # Tu wpisz słowo, aby sprawdzić czy to polindrom.
+czy_polindrom('KAjak') # Tu wpisz słowo, aby sprawdzić czy to polindrom.
