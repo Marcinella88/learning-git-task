@@ -19,4 +19,4 @@ def czy_polindrom(word):
     else:
         print(f"Słowo: {word} nie jest palindromem.")
 
-czy_polindrom('KAjak') # Tu wpisz słowo, aby sprawdzić czy to polindrom.
+czy_polindrom('Kajak') # Tu wpisz słowo, aby sprawdzić czy to polindrom.
